@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Literata';
+        font-style: normal;
+        font-weight: 200 900;
+        font-display: swap;
+        src: url('/fonts/literata.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url('/fonts/libre-franklin.woff2') format('woff2');
+    }
+}
+
+@layer utilities {
+    .text-vertical-rl {
+        writing-mode: vertical-rl;
+    }
+}
